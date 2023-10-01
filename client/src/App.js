@@ -10,7 +10,8 @@ function App() {
           {/* <Route exact path="/" element={<LobbyScreen />} />
           <Route path="/results" element={<Results />} />
           <Route path="/game" element={<GridGame />}/> */}
-          <Route path="/" element={<div>Hello, react world!</div>}/>
+          <Route path="/" element={<div>Hello, world!</div>}/>
+          <Route path="/hellobob" element={<div>Hello, bob!</div>}/>
       </Routes>
   );
 }
